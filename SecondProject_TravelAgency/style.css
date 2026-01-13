@@ -135,3 +135,18 @@
     padding-left: 7rem;
     padding-block: 5rem;
 }
+
+.top-div-para{
+    color: #fb5607;
+    width: 7rem;
+    padding: 0.7rem;
+    text-align: center;
+}
+
+.sec-three-right-main{
+    padding-block: 5rem;
+}
+.three-top-div>h1{
+    font-size: 3.5rem;
+    font-weight: 800;
+}
