@@ -1,18 +1,17 @@
-
 @import url('https://fonts.googleapis.com/css2?family=Lato:ital,wght@0,100;0,300;0,400;0,700;0,900;1,100;1,300;1,400;1,700;1,900&family=Playfair:ital,opsz,wght@0,5..1200,300..900;1,5..1200,300..900&display=swap');
 
-*{
+* {
     margin: 0;
     padding: 0;
     box-sizing: border-box;
 }
 
-.lato-font{
+.lato-font {
     font-family: "Lato", sans-serif;
 }
 
-.playfair-font{
-      font-family: "Playfair", serif;
+.playfair-font {
+    font-family: "Playfair", serif;
 }
 
 .first-section {
@@ -41,7 +40,7 @@
     padding-block: 8rem;
 }
 
-.nav-btn{
+.nav-btn {
     background-color: orangered;
     padding-block: 0.8rem;
     padding-inline: 1.5rem;
@@ -49,34 +48,35 @@
     border-radius: 5px;
 }
 
-.main-hero-head{
+.main-hero-head {
     font-size: 5rem;
     padding-block: 1.5rem;
 }
 
-.header-p-content{
-    background-color:#D1D1D145;
+.header-p-content {
+    background-color: #D1D1D145;
     width: 20rem;
     font-size: 1.2rem;
     color: white;
 
 }
 
-.header-btn1{
+.header-btn1 {
     background-color: orangered;
     padding-block: 0.8rem;
     padding-inline: 2rem;
     color: white;
 }
 
-.header-btn2{
-    background-color:#D1D1D145;
+.header-btn2 {
+    background-color: #D1D1D145;
     padding-block: 0.8rem;
     padding-inline: 2rem;
     color: white;
 
 }
-.header-btn2:hover{
+
+.header-btn2:hover {
     color: white;
     background-color: orangered;
 }
@@ -85,68 +85,371 @@
 /* ........................................  */
 
 
-.second_section{
+.second_section {
     height: auto;
     width: 100%;
     padding-top: 5rem;
 }
 
-.para-content{
-    background-color:#fb56071c;
+.para-content {
+    background-color: #fb56071c;
     width: 20rem;
     font-size: 1.2rem;
     color: #fb5607;
 }
 
-.second-sec-img{
+.second-sec-img {
     border-radius: 20%;
 }
-.svg-icons{
+
+.svg-icons {
     fill: #fb5607;
 }
 
-.circle-para{
-    background-color:#fb56071c;
+.circle-para {
+    background-color: #fb56071c;
     color: #fb5607;
     width: 10rem;
-   
+
 }
 
-.circle-div{
+.circle-div {
     height: 15rem;
     width: 15rem;
     display: flex;
     position: relative;
-    bottom:7rem;
+    bottom: 7rem;
     left: 3.5rem;
     background-color: white;
     border-radius: 50%;
-   
+
 }
 
 /* ..........................................  */
 
-.section-three{
+.section-three {
     height: auto;
     background-color: #fff7ec;
 }
 
-.third-sec-img{
+.third-sec-img {
     padding-left: 7rem;
     padding-block: 5rem;
 }
 
-.top-div-para{
+.top-div-para {
     color: #fb5607;
     width: 7rem;
     padding: 0.7rem;
     text-align: center;
 }
 
-.sec-three-right-main{
+.sec-three-right-main {
     padding-block: 5rem;
 }
-.three-top-div>h1{
+
+.three-top-div>h1 {
     font-size: 3.5rem;
     font-weight: 800;
+}
+
+.check-icon {
+    color: #fb5607;
+}
+
+.three-sec-circle-img {
+    position: relative;
+    left: -1rem;
+}
+
+/* ........................................  */
+
+.fourth-section {
+    height: auto;
+    padding-top: 5rem;
+    padding-inline: 4rem;
+}
+
+.sec-four-heading {
+    font-size: 4rem;
+    font-weight: 800;
+}
+
+.sec-four-big-img {
+    position: relative;
+    top: -4.5rem;
+}
+
+.para-content-2 {
+    background-color: #fb56071c;
+    width: 15rem;
+    font-size: 1.1rem;
+    color: #fb5607;
+}
+
+/* ...........................................  */
+
+.fifth-section {
+
+    background-image: url('/assets/images/home-tour.jpg');
+    background-position: center;
+    background-size: cover;
+    position: relative;
+
+}
+
+.fifth-section::before {
+    content: "";
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    position: absolute;
+    background-color: rgba(0, 0, 0, 0.5);
+
+}
+
+.fifth-main-div {
+    padding-inline: 4.5rem;
+    position: relative;
+    z-index: 1;
+    top: 10rem;
+}
+
+.fifth-left-div {
+    background-color: white;
+    border-radius: 3rem;
+    padding: 3rem 2rem 3rem 2rem !important;
+
+}
+
+.fifth-right-div {
+    color: white;
+
+}
+
+.para-content-3 {
+    background-color: #D1D1D145;
+    display: inline-block;
+
+}
+
+.fifth-main-head {
+    font-size: 4rem;
+    font-weight: 800;
+
+}
+
+
+/* .....................................  */
+.sixth-sec-content {
+    padding-block: 10rem;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    gap: 1.5rem;
+    text-align: center;
+}
+
+
+
+/* <!-- Ready for adventure section starts here  --> */
+
+.ready-for-adventure {
+    background-color: #fb5607;
+    color: white;
+    padding-inline: 3rem;
+    position: relative;
+}
+
+.ready-for-adventure::before {
+    content: '';
+    position: absolute;
+    width: 100%;
+    height: 100%;
+    top: 0;
+    left: 0;
+    background-image: url('/assets/images/Travel-50.svg');
+    background-position: bottom center;
+    background-size: auto;
+    background-repeat: no-repeat;
+
+}
+
+.adventure-left-section {
+    padding-block: 7rem;
+    padding-right: 8rem;
+}
+
+.adventure-h1 {
+    font-size: 4rem;
+    font-weight: 700;
+    line-height: 4rem;
+}
+
+.adventure-img-container {
+    position: absolute;
+    bottom: 0rem;
+}
+
+.white-btn {
+    color: #fb5607;
+    padding-block: 0.8rem;
+    padding-inline: 1.5rem;
+    border: none;
+    border-radius: 10px;
+}
+
+/* ..................................  */
+.footer {
+    background-color: #00121a;
+}
+
+
+
+
+
+
+/* media query.......... */
+
+
+@media screen and (max-width:992px) {
+    .sec-four-big-img {
+        top: 0;
+    }
+
+    .fifth-sec-row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .circle-div {
+        height: 10rem;
+        width: 10rem;
+        display: flex;
+        position: relative;
+        bottom: 5rem;
+        left: 2rem;
+        background-color: white;
+        border-radius: 50%;
+
+    }
+
+}
+
+
+
+@media screen and (max-width:667px) {
+
+    .hero-buttons {
+        flex-direction: column-reverse;
+    }
+
+    .circle-div {
+        height: 15rem;
+        width: 15rem;
+        display: flex;
+        position: relative;
+        bottom: 7rem;
+        left: 3.5rem;
+        background-color: white;
+        border-radius: 50%;
+
+    }
+
+    .third-sec-img {
+        padding: 0
+    }
+
+    .main-hero-head {
+        font-size: 3rem;
+    }
+
+    .three-mid-div {
+        display: flex;
+        flex-direction: column;
+    }
+
+    /* ......................................  */
+
+    .sec-four-heading {
+        font-size: 3rem;
+    }
+
+    .sec-four-big-img {
+        top: 0;
+    }
+
+    .para-content-2 {
+        background-color: #fb56071c;
+        width: 12rem;
+        font-size: 0.9rem;
+        color: #fb5607;
+        margin-left: 3.5rem;
+
+    }
+
+    .fourth-section {
+        padding-inline: 1.5rem;
+    }
+
+    .sec-four-content-div {
+        text-align: center;
+    }
+
+    /* .........................................  */
+
+    .fifth-sec-row {
+        display: flex;
+        flex-direction: column-reverse;
+    }
+
+    .fifth-main-head {
+        font-size: 3rem;
+        text-align: center;
+    }
+
+    .fifth-main-div {
+        top: 0;
+        padding-block: 2rem;
+    }
+
+    /* ...............................  */
+
+    .six-div-para {
+        margin-right: 3rem;
+        font-size: 1.2rem;
+    }
+
+    .sixth-sec-content {
+        padding: 2rem;
+    }
+
+    /* ..................................  */
+
+    .adventure-left-section {
+        padding-block: 1rem;
+        padding-right: 0rem;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        flex-direction: column;
+        text-align: center;
+    }
+
+    .adventure-img-container {
+        position: relative;
+        bottom: 0rem;
+    }
+
+    .adventure-h1 {
+        font-size: 3rem;
+    }
+
+    .footer-logo-div {
+        text-align: center;
+    }
+
+
+
 }
