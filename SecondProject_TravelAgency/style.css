@@ -30,7 +30,9 @@
     left: 0;
     height: 100%;
     width: 100%;
-    background-color: rgba(0, 0, 25, 0.6);
+    /* background-color: rgba(0, 0, 25, 0.6); */
+    background-color: #001219;
+    opacity: 0.6;
 }
 
 .center-section {
@@ -51,6 +53,7 @@
 .main-hero-head {
     font-size: 5rem;
     padding-block: 1.5rem;
+    font-weight: 800;
 }
 
 .header-p-content {
@@ -85,7 +88,7 @@
 /* ........................................  */
 
 
-.second_section {
+.second-section {
     height: auto;
     width: 100%;
     padding-top: 5rem;
@@ -304,6 +307,91 @@
 .footer {
     background-color: #00121a;
 }
+.footer-icon{
+    color: #fb5607;
+}
+/* ....................................................................  */
+/* About page starts here...  */
+
+.about-first-section {
+    height: auto;
+    width: 100%;
+    background-image: url('./assets/images/about-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.about-first-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(0, 0, 25, 0.6); */
+    background-color: #001219;
+    opacity: 0.6;
+}
+
+.about-main-hero-head {
+    font-size: 5rem;
+    padding-block: 1.5rem;
+    font-weight: 800;
+}
+
+.about-header-p-content {
+    background-color: #D1D1D145;
+    width: 10rem;
+    font-size: 1.2rem;
+    color: white;
+
+}
+.about-center-section {
+    position: relative;
+    z-index: 2;
+    color: white;
+    padding-block: 8rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+.about-secont-top-box{
+       /* display: flex; */
+        position: relative;
+        bottom: 6rem;
+        background-color: white;
+}
+.three-sec-circle-img-2 {
+    position: relative;
+    left: -2rem;
+}
+/* .................................  */
+
+.about-section-four{
+    background-color: #fff8ed;
+    padding-block: 5rem;
+}
+.about-trending-img{
+    border-radius: 15%;
+}
+.about-five-section{
+    padding-block: 4rem;
+}
+/* ..........................  */
+.about-six-section{
+    background-color: #fff8ed;
+    padding-top: 5rem;
+    padding-bottom: 7rem;
+}
+.six-sec-top-para {
+    color: #fb5607;
+    width: 10rem;
+    padding: 0.5rem;
+    text-align: center;
+}
 
 
 
@@ -449,7 +537,31 @@
     .footer-logo-div {
         text-align: center;
     }
-
-
+    /* .....................................  */
+    .about-main-hero-head{
+        font-size: 3rem;
+    }
+    
+    .about-sec-two-main-div{
+        padding-inline: 2rem;
+    }
+   .about-three-check{
+    flex-direction: column;
+   }
+   .about-three-left-img{
+    margin-top: 2rem;
+   }
+   .about-sec-three-heading{
+    font-size: 2rem !important;
+   }
+   .about-div-1{
+    margin-bottom: 1rem;
+   }
+   .about-fourth-right-div{
+    padding-top: 2rem;
+   }
+   .about-trending-img{
+    padding-block: 1rem;
+   }
 
 }
