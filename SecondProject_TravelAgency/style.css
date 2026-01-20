@@ -102,8 +102,24 @@
 }
 
 .second-sec-img {
-    border-radius: 20%;
+    border-radius: 5rem;
 }
+
+
+
+/* .home-overlay-dark-2 {
+    position: relative;
+}
+
+.home-overlay-dark-2::after {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.5);
+    pointer-events: none;
+    
+} */
+
 
 .svg-icons {
     fill: #fb5607;
@@ -182,6 +198,48 @@
     position: relative;
     top: -4.5rem;
 }
+.second-sec-img-2 {
+    border-radius: 5rem;
+}
+ /* overlay start...........  */
+
+
+.home-overlay-dark {
+    position: relative;
+    overflow: hidden;
+    /* margin-top: 3rem; */
+    border-radius: 5rem; 
+}
+
+.home-overlay-dark::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45); 
+    z-index: 1;
+}
+
+.home-overlay-dark img {
+    object-fit: cover;
+    position: relative;
+    z-index: 0;
+}
+.home-card-text {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1.5rem;
+    z-index: 3;
+    color: white;
+}
+.home-card-text>h3{
+    font-size: 2rem;
+    font-weight: 800;
+}
+ /* overlay end ........  */
+
 
 .para-content-2 {
     background-color: #fb56071c;
@@ -368,6 +426,10 @@
     position: relative;
     left: -2rem;
 }
+.about-sec-two-heading{
+    padding-block: 1rem;
+
+}
 /* .................................  */
 
 .about-section-four{
@@ -375,11 +437,41 @@
     padding-block: 5rem;
 }
 .about-trending-img{
-    border-radius: 15%;
+    border-radius: 2rem;
 }
+/* .................................  */
 .about-five-section{
     padding-block: 4rem;
 }
+.overlay-dark {
+    position: relative;
+    overflow: hidden;
+    border-radius: 2rem; 
+}
+
+.overlay-dark::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45); 
+    z-index: 1;
+}
+
+.overlay-dark img {
+    position: relative;
+    z-index: 0;
+}
+.about-card-text {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1.5rem;
+    z-index: 3;
+    color: white;
+}
+
 /* ..........................  */
 .about-six-section{
     background-color: #fff8ed;
@@ -392,6 +484,218 @@
     padding: 0.5rem;
     text-align: center;
 }
+
+/* Contact page starts here......  */
+
+
+.contact-first-section {
+    height: auto;
+    width: 100%;
+    background-image: url('./assets/images/contact-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.contact-first-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(0, 0, 25, 0.6); */
+    background-color: #001219;
+    opacity: 0.6;
+}
+
+.contact-main-hero-head {
+    font-size: 5rem;
+    padding-block: 1.5rem;
+    font-weight: 800;
+}
+
+.contact-header-p-content {
+    background-color: #D1D1D145;
+    width: 25rem;
+    font-size: 1.2rem;
+    color: white;
+
+}
+.contact-center-section {
+    position: relative;
+    z-index: 2;
+    color: white;
+    padding-block: 8rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+.contact-sec-two-img{
+    border-radius: 20%;
+    /* margin-top: 3rem; */
+}
+
+.contact-overlay-dark {
+    position: relative;
+    overflow: hidden;
+    margin-top: 3rem;
+    border-radius: 20%; 
+}
+
+.contact-overlay-dark::before {
+    content: "";
+    position: absolute;
+    inset: 0;
+    background: rgba(0, 0, 0, 0.45); 
+    z-index: 1;
+}
+
+.contact-overlay-dark img {
+    position: relative;
+    z-index: 0;
+}
+.contact-card-text {
+    position: absolute;
+    inset: 0;
+    display: flex;
+    flex-direction: column;
+    justify-content: flex-end;
+    padding: 1.5rem;
+    z-index: 3;
+    color: white;
+    bottom: 10rem;
+}
+.contact-card-text>h1{
+    font-size: 4rem;
+    font-weight: 800;
+}
+.form-label{
+    font-weight: 600;
+}
+.form-control{
+    height: 4rem;
+}
+.orange-btn{
+    height: 2.5rem;
+    width: 8rem;
+    background-color: #fb5607;
+    border: none;
+    border-radius: 10px;
+    color: white;
+}
+.form-row-div{
+    position: relative;
+    top: -10rem;
+    z-index: 3;
+    background-color: white;
+    border-radius: 3rem;
+}
+.contact-sec-small-div{
+    background-color: #fff7ec;
+    padding: 2rem 2.7rem;
+    border-radius: 30px;
+}
+.contact-sec-small-div2{
+    background-color: #fff7ec;
+    padding-inline: 3rem;
+    padding-top: 2.2rem;
+    padding-bottom: 4.5rem;
+    border-radius: 30px;
+}
+.contact-sec-three-main{
+    padding-bottom: 9rem;
+
+}
+.contact-icons-bg{
+    background-color: #fb5607;
+    height: 3rem;
+    width: 3rem;
+    text-align: center;
+    font-size: 1.5rem;
+    border-radius: 50%;
+    padding-top: 5px;
+    color: white;
+}
+/* ...................................  */
+/* Packages page starts here....  */
+
+.packages-first-section {
+    height: auto;
+    width: 100%;
+    background-image: url('./assets/images/packages-hero.jpg');
+    background-size: cover;
+    background-position: center;
+    position: relative;
+}
+
+.packages-first-section::before {
+    content: '';
+    position: absolute;
+    top: 0;
+    left: 0;
+    height: 100%;
+    width: 100%;
+    /* background-color: rgba(0, 0, 25, 0.6); */
+    background-color: #001219;
+    opacity: 0.6;
+}
+
+.contact-main-hero-head {
+    font-size: 5rem;
+    padding-block: 1.5rem;
+    font-weight: 800;
+}
+
+.packages-header-p-content {
+    background-color: #D1D1D145;
+    width: 15rem;
+    font-size: 1.2rem;
+    color: white;
+
+}
+.packages-center-section {
+    position: relative;
+    z-index: 2;
+    color: white;
+    padding-block: 8rem;
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    text-align: center;
+}
+
+ /* package card  */
+.package-card-section{
+    padding-top: 2rem;
+    padding-bottom: 7rem;
+}
+.package-card img {
+    height: 220px;
+    object-fit: cover;
+}
+
+.price-badge {
+    position: absolute;
+    top: 15px;
+    right: 15px;
+    background: #f36c2e;
+    color: #fff;
+    padding: 6px 12px;
+    border-radius: 20px;
+    font-weight: 600;
+    font-size: 14px;
+}
+
+
+
+
+
+
+
+
+
 
 
 
@@ -422,6 +726,26 @@
         border-radius: 50%;
 
     }
+    .happy-font{
+        padding-left: 6rem;
+        font-size: 0.6rem;
+    }
+    .three-bottom-img-div{
+        display: flex;
+    }
+    .contact-sec-small-div2{
+        margin-block: 1rem;
+    }
+    
+   /* .form-row-div{
+    top: 0;
+    flex-direction: column-reverse;
+    align-items: center;
+    padding-inline: 0px;
+    
+   } */
+    
+   
 
 }
 
@@ -560,8 +884,49 @@
    .about-fourth-right-div{
     padding-top: 2rem;
    }
-   .about-trending-img{
+   /* .about-trending-img{
     padding-block: 1rem;
+   } */
+   .overlay-dark{
+    margin-block: 1rem;
    }
+
+   /* contact page starts here....  */
+   .contact-center-section{
+    padding-block: 2rem;
+   }
+   .content-sec-icons{
+    flex-direction: column-reverse;
+    font-size: 1rem;
+    gap: 1rem;
+   }
+   .contact-header-p-content{
+    width: 20rem;
+    font-size: 1rem;
+   }
+   .contact-main-hero-head{
+    font-size: 3.5rem;
+   }
+   .form-row-div{
+    flex-direction: column-reverse;
+   }
+   .contact-form{
+    padding-top: 3rem;
+   }
+   .form-row-div{
+    top: 0;
+   }
+   .contact-sec-three-main{
+    padding-bottom: 2rem;
+   }
+   .contact-sec-small-div2{
+    margin-block: 1.5rem;
+    flex-direction: column;
+   }
+   .contact-sec-small-div {
+    margin-block: 1.5rem;
+    flex-direction: column;
+   }
+   
 
 }
