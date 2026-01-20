@@ -198,24 +198,26 @@
     position: relative;
     top: -4.5rem;
 }
+
 .second-sec-img-2 {
     border-radius: 5rem;
 }
- /* overlay start...........  */
+
+/* overlay start...........  */
 
 
 .home-overlay-dark {
     position: relative;
     overflow: hidden;
     /* margin-top: 3rem; */
-    border-radius: 5rem; 
+    border-radius: 5rem;
 }
 
 .home-overlay-dark::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.45); 
+    background: rgba(0, 0, 0, 0.45);
     z-index: 1;
 }
 
@@ -224,6 +226,7 @@
     position: relative;
     z-index: 0;
 }
+
 .home-card-text {
     position: absolute;
     inset: 0;
@@ -234,11 +237,13 @@
     z-index: 3;
     color: white;
 }
-.home-card-text>h3{
+
+.home-card-text>h3 {
     font-size: 2rem;
     font-weight: 800;
 }
- /* overlay end ........  */
+
+/* overlay end ........  */
 
 
 .para-content-2 {
@@ -365,9 +370,11 @@
 .footer {
     background-color: #00121a;
 }
-.footer-icon{
+
+.footer-icon {
     color: #fb5607;
 }
+
 /* ....................................................................  */
 /* About page starts here...  */
 
@@ -405,6 +412,7 @@
     color: white;
 
 }
+
 .about-center-section {
     position: relative;
     z-index: 2;
@@ -416,44 +424,50 @@
     text-align: center;
 }
 
-.about-secont-top-box{
-       /* display: flex; */
-        position: relative;
-        bottom: 6rem;
-        background-color: white;
+.about-secont-top-box {
+    /* display: flex; */
+    position: relative;
+    bottom: 6rem;
+    background-color: white;
 }
+
 .three-sec-circle-img-2 {
     position: relative;
     left: -2rem;
 }
-.about-sec-two-heading{
+
+.about-sec-two-heading {
     padding-block: 1rem;
 
 }
+
 /* .................................  */
 
-.about-section-four{
+.about-section-four {
     background-color: #fff8ed;
     padding-block: 5rem;
 }
-.about-trending-img{
+
+.about-trending-img {
     border-radius: 2rem;
 }
+
 /* .................................  */
-.about-five-section{
+.about-five-section {
     padding-block: 4rem;
 }
+
 .overlay-dark {
     position: relative;
     overflow: hidden;
-    border-radius: 2rem; 
+    border-radius: 2rem;
 }
 
 .overlay-dark::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.45); 
+    background: rgba(0, 0, 0, 0.45);
     z-index: 1;
 }
 
@@ -461,6 +475,7 @@
     position: relative;
     z-index: 0;
 }
+
 .about-card-text {
     position: absolute;
     inset: 0;
@@ -473,11 +488,12 @@
 }
 
 /* ..........................  */
-.about-six-section{
+.about-six-section {
     background-color: #fff8ed;
     padding-top: 5rem;
     padding-bottom: 7rem;
 }
+
 .six-sec-top-para {
     color: #fb5607;
     width: 10rem;
@@ -522,6 +538,7 @@
     color: white;
 
 }
+
 .contact-center-section {
     position: relative;
     z-index: 2;
@@ -532,7 +549,8 @@
     flex-direction: column;
     text-align: center;
 }
-.contact-sec-two-img{
+
+.contact-sec-two-img {
     border-radius: 20%;
     /* margin-top: 3rem; */
 }
@@ -541,14 +559,14 @@
     position: relative;
     overflow: hidden;
     margin-top: 3rem;
-    border-radius: 20%; 
+    border-radius: 20%;
 }
 
 .contact-overlay-dark::before {
     content: "";
     position: absolute;
     inset: 0;
-    background: rgba(0, 0, 0, 0.45); 
+    background: rgba(0, 0, 0, 0.45);
     z-index: 1;
 }
 
@@ -556,6 +574,7 @@
     position: relative;
     z-index: 0;
 }
+
 .contact-card-text {
     position: absolute;
     inset: 0;
@@ -567,17 +586,21 @@
     color: white;
     bottom: 10rem;
 }
-.contact-card-text>h1{
+
+.contact-card-text>h1 {
     font-size: 4rem;
     font-weight: 800;
 }
-.form-label{
+
+.form-label {
     font-weight: 600;
 }
-.form-control{
+
+.form-control {
     height: 4rem;
 }
-.orange-btn{
+
+.orange-btn {
     height: 2.5rem;
     width: 8rem;
     background-color: #fb5607;
@@ -585,30 +608,35 @@
     border-radius: 10px;
     color: white;
 }
-.form-row-div{
+
+.form-row-div {
     position: relative;
     top: -10rem;
     z-index: 3;
     background-color: white;
     border-radius: 3rem;
 }
-.contact-sec-small-div{
+
+.contact-sec-small-div {
     background-color: #fff7ec;
     padding: 2rem 2.7rem;
     border-radius: 30px;
 }
-.contact-sec-small-div2{
+
+.contact-sec-small-div2 {
     background-color: #fff7ec;
     padding-inline: 3rem;
     padding-top: 2.2rem;
     padding-bottom: 4.5rem;
     border-radius: 30px;
 }
-.contact-sec-three-main{
+
+.contact-sec-three-main {
     padding-bottom: 9rem;
 
 }
-.contact-icons-bg{
+
+.contact-icons-bg {
     background-color: #fb5607;
     height: 3rem;
     width: 3rem;
@@ -618,6 +646,7 @@
     padding-top: 5px;
     color: white;
 }
+
 /* ...................................  */
 /* Packages page starts here....  */
 
@@ -655,6 +684,7 @@
     color: white;
 
 }
+
 .packages-center-section {
     position: relative;
     z-index: 2;
@@ -666,11 +696,12 @@
     text-align: center;
 }
 
- /* package card  */
-.package-card-section{
+/* package card  */
+.package-card-section {
     padding-top: 2rem;
     padding-bottom: 7rem;
 }
+
 .package-card img {
     height: 220px;
     object-fit: cover;
@@ -726,26 +757,29 @@
         border-radius: 50%;
 
     }
-    .happy-font{
+
+    .happy-font {
         padding-left: 6rem;
         font-size: 0.6rem;
     }
-    .three-bottom-img-div{
+
+    .three-bottom-img-div {
         display: flex;
     }
-    .contact-sec-small-div2{
+
+    .contact-sec-small-div2 {
         margin-block: 1rem;
     }
-    
-   /* .form-row-div{
+
+    /* .form-row-div{
     top: 0;
     flex-direction: column-reverse;
     align-items: center;
     padding-inline: 0px;
     
    } */
-    
-   
+
+
 
 }
 
@@ -861,72 +895,88 @@
     .footer-logo-div {
         text-align: center;
     }
+
     /* .....................................  */
-    .about-main-hero-head{
+    .about-main-hero-head {
         font-size: 3rem;
     }
-    
-    .about-sec-two-main-div{
+
+    .about-sec-two-main-div {
         padding-inline: 2rem;
     }
-   .about-three-check{
-    flex-direction: column;
-   }
-   .about-three-left-img{
-    margin-top: 2rem;
-   }
-   .about-sec-three-heading{
-    font-size: 2rem !important;
-   }
-   .about-div-1{
-    margin-bottom: 1rem;
-   }
-   .about-fourth-right-div{
-    padding-top: 2rem;
-   }
-   /* .about-trending-img{
+
+    .about-three-check {
+        flex-direction: column;
+    }
+
+    .about-three-left-img {
+        margin-top: 2rem;
+    }
+
+    .about-sec-three-heading {
+        font-size: 2rem !important;
+    }
+
+    .about-div-1 {
+        margin-bottom: 1rem;
+    }
+
+    .about-fourth-right-div {
+        padding-top: 2rem;
+    }
+
+    /* .about-trending-img{
     padding-block: 1rem;
    } */
-   .overlay-dark{
-    margin-block: 1rem;
-   }
+    .overlay-dark {
+        margin-block: 1rem;
+    }
 
-   /* contact page starts here....  */
-   .contact-center-section{
-    padding-block: 2rem;
-   }
-   .content-sec-icons{
-    flex-direction: column-reverse;
-    font-size: 1rem;
-    gap: 1rem;
-   }
-   .contact-header-p-content{
-    width: 20rem;
-    font-size: 1rem;
-   }
-   .contact-main-hero-head{
-    font-size: 3.5rem;
-   }
-   .form-row-div{
-    flex-direction: column-reverse;
-   }
-   .contact-form{
-    padding-top: 3rem;
-   }
-   .form-row-div{
-    top: 0;
-   }
-   .contact-sec-three-main{
-    padding-bottom: 2rem;
-   }
-   .contact-sec-small-div2{
-    margin-block: 1.5rem;
-    flex-direction: column;
-   }
-   .contact-sec-small-div {
-    margin-block: 1.5rem;
-    flex-direction: column;
-   }
-   
+    /* contact page starts here....  */
+    .contact-center-section {
+        padding-block: 2rem;
+    }
+
+    .content-sec-icons {
+        flex-direction: column-reverse;
+        font-size: 1rem;
+        gap: 1rem;
+    }
+
+    .contact-header-p-content {
+        width: 20rem;
+        font-size: 1rem;
+    }
+
+    .contact-main-hero-head {
+        font-size: 3.5rem;
+    }
+
+    .form-row-div {
+        flex-direction: column-reverse;
+    }
+
+    .contact-form {
+        padding-top: 3rem;
+    }
+
+    .form-row-div {
+        top: 0;
+    }
+
+    .contact-sec-three-main {
+        padding-bottom: 2rem;
+    }
+
+    .contact-sec-small-div2 {
+        margin-block: 1.5rem;
+        flex-direction: column;
+    }
+
+    .contact-sec-small-div {
+        margin-block: 1.5rem;
+        flex-direction: column;
+    }
+
 
 }
